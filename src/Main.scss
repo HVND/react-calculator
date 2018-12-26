@@ -1,0 +1,7 @@
+@import "style/variables/index";
+
+.main {
+  display: block;
+  width: $frameWidth;
+  border-left: 1px solid #000;
+}

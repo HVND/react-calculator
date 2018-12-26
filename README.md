@@ -1,0 +1,1 @@
+Simple calculator built with react

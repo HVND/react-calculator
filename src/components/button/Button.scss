@@ -1,0 +1,46 @@
+@import "./../../style/variables/index";
+
+$buttonMinUnit: $frameWidth / 4;
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: $buttonMinUnit;
+  background-color: #fff;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-top: none;
+  border-left: none;
+  font-size: 32px;
+  outline: none;
+}
+
+.button:active {
+  background: #ccc;
+}
+
+.operator {
+  background: #f2284f;
+  color: #fff;
+}
+
+.operator:active {
+  background: #c11e3e;
+}
+
+.button-1x {
+  width: $buttonMinUnit;
+}
+
+.button-2x {
+  width: $buttonMinUnit * 2;
+}
+
+.button-3x {
+  width: $buttonMinUnit * 3;
+}
+
+.button-4x {
+  width: $buttonMinUnit * 4;
+}
